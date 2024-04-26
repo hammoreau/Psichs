@@ -1,0 +1,130 @@
+@media screen and (max-width: 1200px){
+    .nav-list {
+        display: none;
+    }
+    
+    .genres li{
+        font-size: 15px;
+    }
+
+    .genres .slide4{
+        font-size: 10px;
+        width: 350px;
+        max-height: 800px;
+    }
+
+    .genres .slide5{
+        font-size: 10px;
+        width: 350px;
+        max-height: 800px;
+    }
+    #touch5:checked + .slide5 {height: 250px;}
+    #touch4:checked + .slide4 {height: 400px;}
+    #touch:checked + .slide1 {height: 960px;}
+    #touch2:checked + .slide2 {height: 750px;}
+    #touch3:checked + .slide3 {height: 800px;}
+    #touch6:checked + .slide6 {height:1450px;}
+    #touch8:checked + .slide8 {height: 900px;}
+    #touch9:checked + .slide9 {height: 850px;}
+    #touch10:checked + .slide10 {height: 900px;}
+
+     .button--huge{
+        font-size: 22px;
+     }
+    
+    .genres .slide6{
+        font-size: 10px;
+        width: 350px;
+        max-height: 800px;
+    }
+    .genres .span{
+        font-size: 10px;
+        width: 350px;
+        max-height: 700px;
+    }
+
+    /* .name-desc{
+        margin-right: 23%;
+    } */
+
+    /* .review-card{
+        display: flex;
+        padding-right: 22px;
+    }
+     
+     .review-card img {
+        width: 250px;
+        height: 100px;
+        position: relative;
+        top: -90px;
+        right: 70px;
+     }
+     .review-card p.client-name{
+        font-size: 22px;
+        padding-right: 15.5pc;
+    }
+    .review-text{
+        display: grid;
+        top: -100px;
+        justify-content: center;
+        align-items: center;
+        margin-right: 200%;
+    }
+
+    .rating {
+        display: flex;
+        align-items: center;
+        top: -190px;
+        left: 110px;
+      }
+      
+      .stars {
+        color: #ffd700;
+        position: relative;
+        top: -170px;
+        left: 16%;
+      } */
+      
+}
+
+
+@media (min-width: 992px){
+    .slider_main{
+        padding-top: 15%;
+    }
+}
+
+@media (min-width: 768px){
+    .slider_main{
+        padding-top: 18%;
+    }
+}
+
+@media screen and (max-width: 664px) {
+    .review-card {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .name-desc, .img-rating {
+        width: 80%;
+        margin-top: 0;
+        gap: 10px;
+    }
+    .button button--huge{
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 480px){
+    
+}
+
+@media (min-width: 320px){
+    .header{
+        position: relative;
+    }
+}
+
+.navbar-dark .navbar-toggler{
+    background-color: black;
+}
